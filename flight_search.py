@@ -4,7 +4,7 @@ from datetime import timedelta
 from flight_data import FlightData
 from pprint import pprint
 
-API_KEY = "z1EAUvYerWaRh5gG9gmI5GR6pSvoIwEB"
+API_KEY = "my_api_key"
 TEQUILA_ENDPOINT = "https://api.tequila.kiwi.com"
 
 HEADERS = {"apikey": API_KEY}
