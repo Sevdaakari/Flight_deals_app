@@ -20,7 +20,6 @@ class NotificationManager:
     def send_mail(self, client, mail, link):
         my_mail = "mymail@gmail.com"
         my_password = "here_is_my_password"
-        # "jsryepxxfiosbcnf"
         with smtplib.SMTP("smtp.gmail.com") as connection:
             connection.starttls()
             connection.login(user=my_mail, password=my_password)
