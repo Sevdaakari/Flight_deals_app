@@ -4,7 +4,7 @@ from flight_search import FlightSearch
 from datetime import datetime, timedelta
 from notification_manager import NotificationManager
 
-USERS_ENDPOINT = "https://api.sheety.co/429eba0ff7dc7c3ea23346a60c4c9e4e/flightDealsSevda/users"
+USERS_ENDPOINT = "https://api.sheety.co/here_is_your_endpoint"
 FROM_MY_CITY = "WRO"
 
 data_manager = DataManager()
